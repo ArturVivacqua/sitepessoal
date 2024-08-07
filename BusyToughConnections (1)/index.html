@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artur Vivacqua</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script>
+            emailjs.init("hv0Ju4gbA3q6LcQok"); 
+        </script>
+    </head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Habilidades</a></li>
+            <li><a href="#work">Trabalhos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="video-background">
+            <video autoplay muted loop preload="auto" width="100%" height="100vh">
+                <source src="images/Iridescent_4K_Motion_Background_Loop (1) (1) (1) (1).mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="home-content">
+            <div class="home-text">
+                <h1 id="intro-text"></h1>
+                <a href="#contact" class="hire-me">Fale Comigo</a>
+            </div>
+            <div class="social">
+                <a href="https://github.com/ArturVivacqua" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/artur-brand%C3%A3o-334461253/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="heading">
+            <h2>Sobre</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/IMG_0196 - Copia-2-modified (1).png" alt="About Me">
+            </div>
+            <div class="about-text">
+                <h1>Meu nome é Artur Vivacqua</h1>
+                <p>Sou estudante de ciências da computação pela UCB e estou disposto a trabalhar e aprender. Sei da importância de trabalhar em time, cumprir prazos, ter organização e planejamento.</p>
+                <a href="images/Curriculum Vitae Artur Vivacqua Brandão 2 (6).pdf" target="_blank">Baixar Currículo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="heading">
+            <h2>Habilidadess</h2>
+            <br/>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <img src="images/Captura_de_tela_2024-08-07_124045-removebg-preview.png" alt="Programação">
+                <h1>Programação</h1>
+                <p>Desenvolvimento de software, websites e aplicativos com tecnologias modernas. Conhecimento em linguagens como HTML, CSS, Java, Python, JavaScript e C.</p>
+            </div>
+            <div class="box">
+                <img src="images/data science.png" alt="Data Science">
+                <h1>Ciência de Dados</h1>
+                <p>Análise de dados, machine learning e visualização de dados para insights estratégicos. Manipulação de planilhas, bancos de dados e conhecimentos da linguagem SQL.</p>
+            </div>
+            <div class="box">
+                <img src="images/Captura_de_tela_2024-08-07_124447-removebg-preview.png" alt="Inglês Fluente">
+                <h1>Inglês Fluente</h1>
+                <p>Proficiência em comunicação e escrita em língua inglesa. Certificação Cambridge C1 de aptidão em língua estrangeira. <a href="images/Cambridge (1) (1).pdf" target="_blank" class="link-animation">Ver Certificado</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="work">
+        <div class="heading work-heading">
+            <h2>Trabalhos</h2>
+            <br/>
+            <p>Alguns dos meus projetos</p>
+            <br/>
+            <br/>
+        </div>
+        <div class="work-content">
+            <a class="work-box" href="https://github.com/ArturVivacqua/ExperimentoDeVelocidadeThreads" target="_blank" style="background-image: url('images/Experimento Threads.png');">
+                <div class="work-title">
+                    <h1>Experimento com Threads em Java</h1>
+                </div>
+            </a>
+            <a class="work-box" href="https://colab.research.google.com/drive/1rsyibe7b6PxFSV_uFAhg5vckN3wKlgSo#scrollTo=x76AS2LjaLyE" target="_blank" style="background-image: url('images/analise de dados.png');">
+                <div class="work-title">
+                    <h1>Análise de Dados Tributários</h1>
+                </div>
+            </a>
+            <a class="work-box" href="https://github.com/guinb0/Torre-De-Hanoi" target="_blank" style="background-image: url('images/torredehanoi.png');">
+                <div class="work-title">
+                    <h1>Torre de Hanói</h1>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="contact">
+        <div class="heading">
+            <h2>Contato</h2>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+                <h1>55 61 98642-1466</h1>
+                <h1>arturbrandao216@gmail.com</h1>
+                <a href="https://wa.me/5561986421466" target="_blank" class="bx bxl-whatsapp"></a>
+                <a href="mailto:arturbrandao216@gmail.com" class="bx bxl-gmail"></a>
+            </div>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Mensagem" rows="5" required></textarea>
+                    <!-- reCAPTCHA widget -->
+                    <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                    <br/>
+                    <button type="submit" class="contact-button">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2024 Artur Vivacqua. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
